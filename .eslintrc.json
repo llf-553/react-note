@@ -1,0 +1,14 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": "off"//不加分号，报错  off:关闭 wran:警告 error：报错
+        // "no-console":2 //0:不报错 1：警告 2：报错
+    }
+}

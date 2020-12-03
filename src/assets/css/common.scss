@@ -1,0 +1,97 @@
+.text2 {
+    font-size: 50px;
+    color: white;
+    background-color: #eee;
+}
+.jsx{
+    color:greenyellow;
+}
+.jsx2{
+    color:black;
+}
+.img{
+    width:200px;
+    height: 200px;
+}
+.d1{
+    display: block;
+}
+.d2{
+    display: none;
+}
+.qf-lang{
+    margin:100px 200px;
+    &>span{
+        display: inline-block;
+        width:100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid #ccc;
+        line-height: 100px;
+        cursor: pointer;
+    }
+    &>span.on{
+        color: white;
+        background-color: yellowgreen;
+        border-color: yellowgreen;
+    }
+}
+.qf-modal{
+    width:520px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    margin:30px auto;
+
+    .qf-modal-header{
+        font-size: 14px;
+        line-height: 50px;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        height:50px;
+        overflow: hidden;
+      
+        &>span:last-child{
+            float: right;
+            cursor: pointer;
+        }
+    }
+    .qf-modal-content{
+        box-sizing: border-box;
+        padding: 20px;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+        
+    }
+    .qf-modal-footer{
+        height: 50px;
+        box-sizing: border-box;
+       
+        overflow: hidden;
+        
+      div{
+        &>span{
+            display: inline-block;
+            border: 1px solid #ccc;
+           line-height: 30px;
+             padding: 0 15px;
+            float: right;
+            box-sizing: border-box;
+            margin:10px;
+            cursor: pointer;
+          
+        }
+        &>span.delete{
+            background-color: yellowgreen;
+            color: #fff;
+            border-color: yellowgreen;
+        }
+        &>span.info{
+            background-color: blue;
+            color: #fff;
+            border-color: blue;
+        }
+      }
+
+    }
+}
